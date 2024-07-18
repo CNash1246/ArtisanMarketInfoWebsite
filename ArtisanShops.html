@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Artisan Shops</title>
+    <style>
+          h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The First Annual Charlotte Artisanal Market</h1>
+        <p>Discover a World of Creativity, Elegance, and Generosity</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Event Information</a></li>
+            <li><a href="DateandLocation.html">Date and Location</a></li>
+            <li><a href="ArtisanShops.html">Artisan Shops</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+
+    <h2>Featured Vendors</h2>
+
+
+    <div class="vendor-container">
+        <div class="vendor">
+            <img src="images/soap.webp" alt="Vendor 1">
+            <h3>PurelyPampered Soaps</h3>
+            <p>by Ethan Kim</p>
+            <p id="vendor1-description">
+                An oasis of natural luxury right from the heart of Charlotte. 
+                Kim handcrafts exquisite, small-batch soaps that will transform your daily cleansing routine into a pampering experience. 
+                Meticulously curated ingredients, including nourishing oils and botanical extracts, ensure a luxurious experience that is as gentle on your skin as it is on the environment. 
+                Discover a wide array of enticing scents and textures, each a unique work of art that elevates your self-care regimen. 
+            </p>
+            <button id="vendor1-toggle" onclick="toggleDescription('vendor1')">Read more</button>
+        </div>
+
+        <div class="vendor">
+            <img src="images/jewellery.webp" alt="Vendor 2" id="necklace">
+            <h3>Nature's Gem Creations</h3>
+            <p>by Aria Patel</p>
+            <p id="vendor2-description">
+                Discover the essence of elegance and creativity at Nature's Gem Creations.
+                A local gem that transforms raw materials into wearable works of art, Patel breathes life into each piece, infusing it with her own unique vision.
+                This jewelry is not just adornment; it's an expression of individuality and style.Using an eclectic mix of semi-precious gemstones, metals, and other hand-selected materials, 
+                Aria Patel creates jewelry that tells a story, your story. Whether you seek a statement piece for a special occasion or a daily accessory to elevate your ensemble, you'll find it here.
+            </p>
+            <button id="vendor2-toggle" onclick="toggleDescription('vendor2')">Read more</button>
+        </div>
+
+        <div class="vendor">
+            <img src="images/clothing.jpg" alt="Vendor 3">
+            <h3>EcoChic Couture</h3>
+            <p>by Zara Al-Mansoori</p>
+            <p id="vendor3-description">
+                Experience fashion with a conscience with EcoChic Couture. Al-Mansoori weaves sustainability and style into every thread, creating clothing that not only looks good but feels good for the planet.
+                From soft, organic cotton to upcycled materials, every fabric is thoughtfully sourced and crafted into wearable art that makes a statement—both in fashion and in environmental responsibility.
+                Our clothing is a testament to conscious design, featuring timeless, versatile pieces that you'll cherish for years, bringing together comfort, aesthetics, and sustainability.
+            </p>
+            <button id="vendor3-toggle" onclick="toggleDescription('vendor3')">Read more</button>
+        </div>
+    </div>
+        
+    <footer>
+        <p>&copy; 2023 Artisan Shops. All rights reserved.</p>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-tiktok"></i>
+        <i class="fa-brands fa-facebook"></i>
+    </footer>
+</body>
+</html>
